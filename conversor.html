@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas com Cotações em Tempo Real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <form id="currency-form">
+            <label for="amount">Valor:</label>
+            <input type="number" id="amount" name="amount" required>
+            <label for="fromCurrency">De:</label>
+            <select id="fromCurrency" name="fromCurrency">
+                <option value="USD">Dólar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="BRL">Real (BRL)</option>
+            </select>
+            <label for="toCurrency">Para:</label>
+            <select id="toCurrency" name="toCurrency">
+                <option value="USD">Dólar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="BRL">Real (BRL)</option>
+            </select>
+            <button type="submit" id="convert">Converter</button>
+            <button type="reset">Limpar</button>
+        </form>
+        <p id="exchange-rate"></p> <!-- Campo para exibir a cotação -->
+        <p id="conversao"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
