@@ -22,7 +22,7 @@ O Conversor de Moedas com Cotações em Tempo Real foi feito para ajudar quem pr
 - Botão de limpar para reiniciar o formulário para uma nova conversão.
 
 ## Visual
-![visual](img/videoConversor.gif)
+![visual](img/printConversor.png)
 
 A interface é simples e fácil de usar, com um fundo em degradê rosa e amarelo que deixa o visual agradável e bonito. O layout é organizado de forma prática, com todos os campos necessários para a conversão em um só lugar.
 
@@ -33,6 +33,8 @@ A interface é simples e fácil de usar, com um fundo em degradê rosa e amarelo
 - **API ExchangeRate** para fornecer as taxas de câmbio atualizadas.
 
 ## Como Funciona
+![visual](img/videoConversor.gif)
+
 Este projeto é uma melhoria de um projeto anterior, onde as taxas de câmbio eram fixas. Agora, a API *ExchangeRate* é usada para buscar as taxas mais recentes, o que faz com que o resultado seja mais preciso e útil.
 
 ## Funções do JavaScript
