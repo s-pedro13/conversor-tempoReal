@@ -24,7 +24,7 @@ O Conversor de Moedas com Cotações em Tempo Real foi feito para ajudar quem pr
 ## Visual
 ![visual](img/conversorTempoReal.png)
 
-A interface é simples e fácil de usar, com um fundo em degradê verde e branco que deixa o visual agradável e moderno. O layout é organizado de forma prática, com todos os campos necessários para a conversão em um só lugar.
+A interface é simples e fácil de usar, com um fundo em degradê rosa e amarelo que deixa o visual agradável e bonito. O layout é organizado de forma prática, com todos os campos necessários para a conversão em um só lugar.
 
 ## Tecnologias Utilizadas
 - **HTML5** para estruturar a página.
