@@ -22,7 +22,7 @@ O Conversor de Moedas com Cotações em Tempo Real foi feito para ajudar quem pr
 - Botão de limpar para reiniciar o formulário para uma nova conversão.
 
 ## Visual
-![visual](img/conversorTempoReal.png)
+![visual](img/videoConversor.gif)
 
 A interface é simples e fácil de usar, com um fundo em degradê rosa e amarelo que deixa o visual agradável e bonito. O layout é organizado de forma prática, com todos os campos necessários para a conversão em um só lugar.
 
