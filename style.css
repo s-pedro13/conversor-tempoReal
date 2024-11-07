@@ -1,6 +1,6 @@
-/* Deixando o fundo com degradê de verde mais quente e branco */
+/* Deixando o fundo com degradê de rosa e amarelo pastel */
 body {
-    background: linear-gradient(to bottom, #b9e4c9, #ffffff); /* Verde mais escuro e quente */
+    background: linear-gradient(to bottom, #eac6d7, #fffdc4); /* Tons pastel */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -16,17 +16,17 @@ body {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    text-align: left; /* Alinha o conteúdo à esquerda */
+    text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Mais espaço entre os campos */
+    gap: 15px;
    }
    /* Estilizando o input de entrada de valor */
    .input-group {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px; /* Aumenta o espaço entre o label e o input */
+    gap: 10px;
    }
    input[type="number"], select {
     width: 95%;
@@ -34,34 +34,34 @@ body {
     border: 1px solid #ced4da;
     border-radius: 5px;
     font-size: 1rem;
-    margin-bottom: 15px; /* Mais espaço entre os campos */
+    margin-bottom: 15px;
    }
    /* Estilizando os botões */
    button {
-    background-color: #88d37f; /* Verde claro mais quente */
+    background-color: #e39fc3;
     color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    margin-top: 10px;
+    margin-top: 5px; /* Diminuindo a margem superior para reduzir o espaço */
     width: 100%;
    }
    button:hover {
-    background-color: #72bc67; /* Um verde mais escuro para hover */
+    background-color: #d18bb8;
    }
    /* Ajustando o resultado da conversão */
    .result {
     margin-top: 15px;
     font-size: 1.2rem;
-    color: #4caf50;
+    color: #e39fc3;
    }
    /* Estilizando os labels */
    label {
     font-size: 0.9rem;
     color: #555;
     margin-bottom: 5px;
-    text-align: left; /* Alinha os labels à esquerda */
+    text-align: left;
     width: 100%;
    }
